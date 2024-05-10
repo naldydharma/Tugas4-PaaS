@@ -5,7 +5,6 @@ const biodata = {
     nama : "Rainaldy",
     nim : "12321008",
     kelas : "IF-E",
-    versi : "app1"
 }
 app.get('/', (req, res) => {
 res.json(biodata);
