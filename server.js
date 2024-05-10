@@ -7,7 +7,7 @@ const Film = {
     year : "2023",
 }
 app.get('/', (req, res) => {
-res.json(biodata);
+res.json(Film);
 });
 // Listen to the App Engine-specified port, or 8080 otherwise
 const PORT = process.env.PORT || 8080;
