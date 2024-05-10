@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-const biodata = {
-    nama : "Rainaldy",
-    nim : "12321008",
-    kelas : "IF-E",
+const Film = {
+    title : "Oppenheimer",
+    director: "Christopher Nolan",
+    year : "2023",
 }
 app.get('/', (req, res) => {
 res.json(biodata);
